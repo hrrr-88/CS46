@@ -19,6 +19,13 @@ npm i react-native-openai
 npx expo install expo-build-properties 
 npx expo install @shopify/flash-list
 
+npm install @clerk/nextjs
+npm audit fix --force
+npm install metro@latest metro-config metro-core metro-resolver metro-source-map metro-runtime --legacy-peer-deps
+npm install --save-dev @babel/plugin-transform-template-literals
+npm install babel-preset-expo@latest
+npm install react-native-reanimated
+npm audit fix
 
 # For new app builds
 npx expo prebuild
